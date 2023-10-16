@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<limits.h>
-
 int main(){  
     int n=4;
     int at[]={0,2,3,5};
