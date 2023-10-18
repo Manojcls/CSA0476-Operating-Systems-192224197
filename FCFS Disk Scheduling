@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-// Function to calculate the total seek time
+
 int calculateSeekTime(int initial_position, int requests[], int n) {
     int seek_time = 0;
     for (int i = 0; i < n; i++) {
@@ -24,7 +24,7 @@ int main() {
     printf("Enter the initial head position: ");
     scanf("%d", &initial_position);
 
-    // Calculate and display the seek time
+  
     int seek_time = calculateSeekTime(initial_position, requests, n);
     printf("Total seek time: %d\n", seek_time);
 
